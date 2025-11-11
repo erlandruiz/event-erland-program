@@ -1,26 +1,237 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Importar Poppins (100–900) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Importar Caveat (400–700) */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+.container {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Custom screen sizes (media queries) si los necesitas usar directamente */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1310px) {
+  .container {
+    max-width: 1310px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+:root {
+  /* --color-primary: #0f1017;
+  --color-accent: #e14817;
+  --color-accent-hover: #cb4419;
+  --color-secondary: #1b1c23;
+  --color-secondary-hover: #1f212d;
+  --color-tertiary: #26272e;
+  --color-tertiary-hover: #24252c;
+  --color-grey: #737373; */
+
+  /* Para Costanera */
+
+   --color-primary: #14213d; /* azul acero */
+  --color-accent: #fca311; /* amarillo vial */
+  --color-accent-hover: #e08f00;
+  --color-secondary: #1f1f29;
+  --color-secondary-hover: #2c2c36;
+  --color-tertiary: #2b2c34;
+  --color-tertiary-hover: #3b3c45;
+  --color-grey: #bfbfbf;
+
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Caveat", cursive;
 }
+
+/* Backgrounds personalizados */
+.bg-hero-1 {
+
+  background-image: url("/assets/hero/hero-bg1.png");
+
+}
+.bg-hero-2 {
+  background-image: url("/assets/hero/hero-bg2.png");
+}
+.bg-pattern {
+  background-image: url("/assets/pattern_bg.png");
+}
+.accent {
+  color:  var(--color-accent);
+}
+
+.primary{
+  color: var(--color-primary);
+}
+
+
+.secondary{
+  color: var(--color-secondary);
+}
+
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+.bgprimary{
+  background: var(--color-primary);
+}
+.bggrey{
+  background-color: var(--color-grey);
+}
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+body {
+  background: var(--color-primary);
+  color: white;
+  font-family: var(--font-primary);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-primary);
+
+}
+
+/* .h1{
+  @apply text-4xl xl:text-[70px] font-bold xl:leading-[78px] uppercase
+} */
+/* .h2{
+  @apply text-3xl xl:text-[44px]leading-[120%] font-semibold
+} */
+/* .h3{
+  @apply text-[32px]leading-[110%] font-medium
+} */
+/* .h4{
+  @apply text-lg
+} */
+ /* .pretirle{
+  @apply font-secondary text-4xl xl:text-[46px] leading-[110%] text-accent;
+ } */
+
+ /* .btn{
+  @apply min-w-[112px] h-[48px] rounded-full flex items-center justify-center texts-sm font-medium transition-all;
+ } */
+ /* .btn-accent{
+  @apply bg-accent hover:bg-accent-hover;
+ }
+
+ .btn-secondary{
+  @apply bg-secondary ;
+ }
+.btn-tertiary{
+  @apply bg-tertiary hover:bg-tertiary-hover
+} */
+
+
+.h1 {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700; /* font-bold */
+  line-height: 2.5rem; /* default line-height for text-4xl */
+  text-transform: uppercase;
+}
+.h2 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 600; /* font-semibold */
+  line-height: 1.2; /* leading-[120%] */
+}
+.h3 {
+  font-size: 32px;           /* text-[32px] */
+  line-height: 1.1;          /* leading-[110%] */
+  font-weight: 500;          /* font-medium */
+}
+
+.h4 {
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.75rem; /* default line-height for text-lg */
+}
+
+/* Estilos para .pretitle */
+.pretitle {
+  font-family: var(--font-secondary); /* font-secondary */
+  font-size: 2.25rem; /* text-4xl */
+  line-height: 1.1; /* leading-[110%] */
+  color: var(--color-accent); /* text-accent */
+}
+
+/* Estilos para .btn */
+.btn {
+  min-width: 112px;
+  height: 48px;
+  border-radius: 9999px; /* rounded-full */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.25rem; /* default line-height for text-sm */
+  font-weight: 500; /* font-medium */
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+}
+
+/* Estilos específicos para botones con variantes de color */
+.btn-accent {
+  background-color: var(--color-accent);
+}
+.btn-accent:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+}
+/* Si quieres un efecto de hover para btn-secondary, agrégalo aquí: */
+/* .btn-secondary:hover {
+  background-color: var(--color-secondary-hover);
+} */
+
+.btn-tertiary {
+  background-color: var(--color-tertiary);
+}
+.btn-tertiary:hover {
+  background-color: var(--color-tertiary-hover); /* Usando --color-tertiary-hover */
+}
+
+.textaccent{
+  color: var(--color-accent);
+}
+/* 1280px */
+@media (min-width: 1024px) {
+  .h1 {
+    font-size: 70px; /* xl:text-[70px] */
+    line-height: 78px; /* xl:leading-[78px] */
+  }
+   .h2 {
+    font-size: 44px; /* xl:text-[44px] */
+  }
+   .pretitle {
+    font-size: 46px; /* xl:text-[46px] */
+  }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: var(--color-accent);
+}
+
