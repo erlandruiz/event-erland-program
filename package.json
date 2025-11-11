@@ -6,7 +6,7 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "json-server": "json-server --watch db.json --port 5000"
+    "json-server": "json-server --watch db.json --port 4001"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.16",

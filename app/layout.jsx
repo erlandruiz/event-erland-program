@@ -1,5 +1,6 @@
 import { Poppins, Caveat } from "next/font/google";
 import "./globals.css";
+import EventProvider from "@/contexts/EventContext";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -20,12 +21,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      <body
-        className={`${poppins.variable} ${caveat.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    <EventProvider>
+      <html lang="es">
+        <body className={`${poppins.variable} ${caveat.variable} antialiased`}>
+          {children}
+        </body>
+      </html>
+    </EventProvider>
   );
 }
