@@ -1,45 +1,80 @@
-"use client"
+"use client";
 
-import  { useEffect, useMemo, useState, createContext, Children } from "react";
+import { useEffect, useMemo, useState, createContext, Children } from "react";
 
 export const EventContext = createContext();
 
-const EventProvider =({children})=>{
-    const [events, setEvents] = useState([]);
-    const [isLoading, setIsLoading] = useState(false);
-    const [error, setError]= useState(null);
+const EventProvider = ({ children }) => {
+  const [events, setEvents] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
 
+  const [searchTerm, setSearchTerm] = useState("");
 
+  const [appliedFilters, setAppliedFilters] = useState({
+    searchTerm: "",
+  });
 
-    useEffect(() => {
-      const fetchEvents = async()=>{
-        setIsLoading(true);
-        try {
-           const res = await fetch("http://localhost:4001/events");
-           if(!res.ok) throw new Error("Failed to tech events");
-           const data = await res.json();
-           setEvents(data);
+  const filteredEvents = useMemo(() => {
+    return events.filter((event) => {
+      const matchesSearch = appliedFilters.searchTerm
+        ? event.title
+            .toLowerCase()
+            .includes(appliedFilters.searchTerm.toLowerCase())
+        : true;
 
-           //para de cargar
-           setIsLoading(false)
-        } catch (err) {
-            setError(err.message);
+      return matchesSearch;
+    });
+  }, [events, appliedFilters]);
 
-            //para de cargar
-            setIsLoading(false)
-        }
+  useEffect(() => {
+    const fetchEvents = async () => {
+      setIsLoading(true);
+      try {
+        const res = await fetch("http://localhost:4001/events");
+        if (!res.ok) throw new Error("Failed to tech events");
+        const data = await res.json();
+        setEvents(data);
+
+        //para de cargar
+        setIsLoading(false);
+      } catch (err) {
+        setError(err.message);
+
+        //para de cargar
+        setIsLoading(false);
       }
-    
-       fetchEvents();
-    }, [])
-    
+    };
 
+    fetchEvents();
+  }, []);
+  const handleSubmit =()=>{
+    setAppliedFilters({
+      searchTerm
+    });
+    // console.log(events)
+  }
 
-    return(
-        <EventContext.Provider value={{events
+  const handleClearSearch =()=>{
+    setSearchTerm("")
+  }
 
-        }}>{children}</EventContext.Provider>
-    )
-}
+  return (
+    <EventContext.Provider
+      value={{
+        events,
+        isLoading,
+        error,
+        searchTerm,
+        setSearchTerm,
+        filteredEvents,
+        handleSubmit,
+        handleClearSearch,
+      }}
+    >
+      {children}
+    </EventContext.Provider>
+  );
+};
 
 export default EventProvider;

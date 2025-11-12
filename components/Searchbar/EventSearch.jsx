@@ -1,7 +1,11 @@
+
+import { Input } from "@components/ui/input";
+
+
 const EventSeacrh =()=>{
     return(
         <div>
-            EventSEarchokokok
+            <Input/>
         </div>
     )
 
