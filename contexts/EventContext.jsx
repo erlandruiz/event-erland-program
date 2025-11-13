@@ -50,11 +50,16 @@ const EventProvider = ({ children }) => {
 
     fetchEvents();
   }, []);
+
+
   const handleSubmit =()=>{
+    setIsLoading(true)
     setAppliedFilters({
       searchTerm
     });
-    // console.log(events)
+   setTimeout(() => {
+    setIsLoading(false)
+   }, 2500);
   }
 
   const handleClearSearch =()=>{

@@ -1,7 +1,7 @@
-const Event =()=>{
+const Event =({event})=>{
     return(
         <div>
-            Event
+            {event.title}
         </div>
     )
 }

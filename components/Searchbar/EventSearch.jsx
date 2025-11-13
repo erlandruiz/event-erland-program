@@ -1,5 +1,5 @@
 import { EventContext } from "@/contexts/EventContext";
-import { Input } from "@components/ui/input";
+import { Input } from "@/components/ui/input";
 import { useContext } from "react";
 
 import { BiSearch } from "react-icons/bi";

@@ -1,15 +1,22 @@
 "use client";
 
 
+import EventList from "@/components/Events/EventList";
 import Searchbar from "@/components/Searchbar/Searchbar";
-import { EventContext } from "@/contexts/EventContext";
-import { useContext } from "react";
+
 
 const Home = () => {
 
  
   return (
-    <Searchbar/>
+    <div>
+
+      <Searchbar/>
+      <div className="container mx-auto">
+        <EventList/>
+      </div>
+    </div>
+ 
   );
 };
 
