@@ -27,6 +27,8 @@ const EventProvider = ({ children }) => {
     });
   }, [events, appliedFilters]);
 
+ 
+
   useEffect(() => {
     const fetchEvents = async () => {
       setIsLoading(true);
