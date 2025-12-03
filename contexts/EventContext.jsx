@@ -15,7 +15,7 @@ const EventProvider = ({ children }) => {
 
   const [appliedFilters, setAppliedFilters] = useState({
     searchTerm: "",
-    selectedLocation: ""
+    selectedLocation: "",
   });
 
   const filteredEvents = useMemo(() => {
@@ -34,17 +34,20 @@ const EventProvider = ({ children }) => {
     const fetchEvents = async () => {
       setIsLoading(true);
       try {
-        const res = await fetch("http://localhost:4001/events");
-        if (!res.ok) throw new Error("Failed to tech events");
+        const res = await fetch("/api/events");
+        if (!res.ok) throw new Error("Failed to fetch events");
         const data = await res.json();
         setEvents(data);
 
-        //para de cargar
-        setIsLoading(false);
+        // //para de cargar
+        // setIsLoading(false);
       } catch (err) {
-        setError(err.message);
+        console.error(err);
+        setError(err.message || "Error al cargar eventos");
 
-        //para de cargar
+        // //para de cargar
+        // setIsLoading(false);
+      } finally {
         setIsLoading(false);
       }
     };
@@ -57,7 +60,7 @@ const EventProvider = ({ children }) => {
     setShowEventList(true);
     setAppliedFilters({
       searchTerm,
-      selectedLocation
+      selectedLocation,
     });
     setTimeout(() => {
       setIsLoading(false);
@@ -83,7 +86,7 @@ const EventProvider = ({ children }) => {
         handleClearSearch,
         showEventList,
         selectedLocation,
-        setSelectedLocation
+        setSelectedLocation,
       }}
     >
       {children}
