@@ -8,11 +8,14 @@ const EventProvider = ({ children }) => {
   const [events, setEvents] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [showEventList, setShowEventList] = useState(false);
 
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState("");
 
   const [appliedFilters, setAppliedFilters] = useState({
     searchTerm: "",
+    selectedLocation: ""
   });
 
   const filteredEvents = useMemo(() => {
@@ -26,8 +29,6 @@ const EventProvider = ({ children }) => {
       return matchesSearch;
     });
   }, [events, appliedFilters]);
-
- 
 
   useEffect(() => {
     const fetchEvents = async () => {
@@ -51,20 +52,23 @@ const EventProvider = ({ children }) => {
     fetchEvents();
   }, []);
 
-
-  const handleSubmit =()=>{
-    setIsLoading(true)
+  const handleSubmit = () => {
+    setIsLoading(true);
+    setShowEventList(true);
     setAppliedFilters({
-      searchTerm
+      searchTerm,
+      selectedLocation
     });
-   setTimeout(() => {
-    setIsLoading(false)
-   }, 2500);
-  }
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+  };
 
-  const handleClearSearch =()=>{
-    setSearchTerm("")
-  }
+  const handleClearSearch = () => {
+    setSearchTerm("");
+    setShowEventList(false);
+    setSelectedLocation("");
+  };
 
   return (
     <EventContext.Provider
@@ -77,6 +81,9 @@ const EventProvider = ({ children }) => {
         filteredEvents,
         handleSubmit,
         handleClearSearch,
+        showEventList,
+        selectedLocation,
+        setSelectedLocation
       }}
     >
       {children}
