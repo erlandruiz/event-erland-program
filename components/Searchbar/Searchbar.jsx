@@ -2,6 +2,7 @@ import { useContext } from "react";
 import EventSeacrh from "./EventSearch";
 import { EventContext } from "@/contexts/EventContext";
 import EventLocation from "./EventLocation";
+import ThemeToggle from "../ThemeToggle";
 
 const Searchbar = () => {
   const { handleSubmit } = useContext(EventContext);
@@ -22,6 +23,8 @@ const Searchbar = () => {
       >
         Consultar
       </button>
+      {/* 👇 Aquí va el icono de modo oscuro / claro */}
+      <ThemeToggle/>
     </div>
   );
 };
