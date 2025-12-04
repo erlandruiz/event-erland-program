@@ -6,7 +6,7 @@ import EventLocation from "./EventLocation";
 const Searchbar = () => {
   const { handleSubmit } = useContext(EventContext);
   return (
-    <div className="bg-black w-[90vw] sm:w-[60vw] md:w-[50vw] lg:w-[40vw] xl:w-max p-8 xl:pl-8 xl:pr-2 h:auto xl:h-[70px] rounded-3xl xl:rounded-full backdrop-blur-[20px] flex flex-col xl:flex-row items-center gap-6 mx-auto text-sm">
+    <div className="w-[90vw] sm:w-[60vw] md:w-[50vw] lg:w-[40vw] xl:w-max p-8 xl:pl-8 xl:pr-2 h:auto xl:h-[70px] rounded-3xl xl:rounded-full backdrop-blur-[20px] flex flex-col xl:flex-row items-center gap-6 mx-auto text-sm  bg-[var(--color-secondary)]/80 text-white border boder-[var(--color-tertiary-hover)]">
       {/**event search */}
       <EventSeacrh />
       {/**event lOCATION */}
@@ -18,7 +18,7 @@ const Searchbar = () => {
       {/**BTN SUBMIT  */}
       <button
         onClick={handleSubmit}
-        className="btn bg-[var(--color-accent)] text-white"
+        className="btn bg-[var(--color-accent)] hover:bg-[var(--color-accent-hover)] text-white "
       >
         Consultar
       </button>
