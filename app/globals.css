@@ -52,23 +52,19 @@
   /* --color-tertiary-hover: #3b3c45; */
   /* --color-grey: #bfbfbf; */
 
-  /* Fondos */
-  --color-primary: #ffffff; /* Fondo página en claro */
-  --color-secondary: #f5f7fa; /* Tarjetas / search bar claro */
+  --color-primary: #ffffff;        /* fondo página claro */
+  --color-secondary: #f5f7fa;      /* barras / tarjetas claras */
   --color-secondary-hover: #e5e7eb;
-  --color-tertiary: #dce0e9; /* Gris claro para bordes */
+  --color-tertiary: #dce0e9;
   --color-tertiary-hover: #c8ccd6;
 
-  /* Texto */
-  --color-text: #14213d; /* Azul acero (tu color primario) */
+  --color-accent: #fca311;         /* amarillo vial */
+  --color-accent-hover: #e08f00;
+  --color-grey: #bfbfbf;
+
+  --color-text: #14213d;           /* azul acero para texto */
   --color-text-muted: #6b7280;
 
-  /* Marca Costanera/CAMAFRA */
-  --color-accent: #fca311; /* Amarillo vial */
-  --color-accent-hover: #e08f00; /* Amarillo oscuro */
-
-  /* Neutros */
-  --color-grey: #bfbfbf;
 
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Caveat", cursive;
@@ -76,23 +72,18 @@
 
 /* MODO OSCURO */
 .dark {
-  /* Fondos oscuros */
-  --color-primary: #14213d; /* Azul acero como fondo oscuro */
-  --color-secondary: #1f1f29; /* Contenedores */
+  --color-primary: #14213d;        /* azul acero fondo */
+  --color-secondary: #1f1f29;
   --color-secondary-hover: #2c2c36;
   --color-tertiary: #2b2c34;
   --color-tertiary-hover: #3b3c45;
+  --color-grey: #bfbfbf;
 
-  /* Texto */
-  --color-text: #ffffff;
-  --color-text-muted: #bfbfbf;
-
-  /* Marca */
-  --color-accent: #fca311; /* se mantiene igual */
+  --color-accent: #fca311;
   --color-accent-hover: #e08f00;
 
-  /* Neutros */
-  --color-grey: #bfbfbf;
+  --color-text: #ffffff;           /* texto blanco en oscuro */
+  --color-text-muted: #bfbfbf;
 }
 
 /* Backgrounds personalizados */
