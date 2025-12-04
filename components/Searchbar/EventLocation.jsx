@@ -7,27 +7,15 @@ import {
   SelectGroup,
   SelectItem,
   SelectLabel,
-  SelectScrollDownButton,
-  SelectScrollUpButton,
-  SelectSeparator,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
 
+import { BiMap } from "react-icons/bi";
+
 const EventLocation = () => {
-  const {
-    events,
-    isLoading,
-    error,
-    searchTerm,
-    setSearchTerm,
-    filteredEvents,
-    handleSubmit,
-    handleClearSearch,
-    showEventList,
-    selectedLocation,
-    setSelectedLocation,
-  } = useContext(EventContext);
+  const { events, selectedLocation, setSelectedLocation } =
+    useContext(EventContext);
 
   const uniqueLocations = [
     "Todos los lugares",
@@ -52,24 +40,31 @@ const EventLocation = () => {
   ];
 
   return (
-    <div>
+    <div className="flex items-center gap-[10px] w-full xl:w-[190px] select-none">
+      <div className="text-lg text-[var(--color-accent)]">
+        <BiMap />
+      </div>
       <Select
-        value={setSelectedLocation}
+        value={selectedLocation}
         onValueChange={(value) => setSelectedLocation(value)}
       >
-        <SelectTrigger className="bg-transparent border-none focus:ring-0 focus:ring-offset-0 text-left p-0">
+        <SelectTrigger className="bg-transparent border-none focus:ring-0 focus:ring-offset-0 text-left p-0 text-[var(--color-text)]">
           <SelectValue placeholder="Lugares" />
         </SelectTrigger>
         <SelectContent>
           <SelectGroup>
             <SelectLabel>Lugar</SelectLabel>
-            {uniqueLocations.map((location, index) => {
+            {uniqueLocations.map((uniqueLocation, index) => {
               return (
                 <SelectItem
-                  value={location === "Todos los lugares" ? null : location}
+                  value={
+                    uniqueLocation === "Todos los lugares"
+                      ? null
+                      : uniqueLocation
+                  }
                   key={index}
                 >
-                  {location}
+                  {uniqueLocation}
                 </SelectItem>
               );
             })}
