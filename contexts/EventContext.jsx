@@ -26,7 +26,11 @@ const EventProvider = ({ children }) => {
             .includes(appliedFilters.searchTerm.toLowerCase())
         : true;
 
-      return matchesSearch;
+  
+
+      const matchesLocation = appliedFilters.selectedLocation ? event.location.toLowerCase() === appliedFilters.selectedLocation.toLowerCase() : true;
+
+          return matchesSearch && matchesLocation;
     });
   }, [events, appliedFilters]);
 
