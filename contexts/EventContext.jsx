@@ -12,10 +12,12 @@ const EventProvider = ({ children }) => {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");
+  const [selectedDate, setSelectedDate] = useState("");
 
   const [appliedFilters, setAppliedFilters] = useState({
     searchTerm: "",
     selectedLocation: "",
+    selectedDate: null
   });
 
   const filteredEvents = useMemo(() => {
@@ -65,6 +67,7 @@ const EventProvider = ({ children }) => {
     setAppliedFilters({
       searchTerm,
       selectedLocation,
+      selectedDate
     });
     setTimeout(() => {
       setIsLoading(false);
@@ -75,6 +78,7 @@ const EventProvider = ({ children }) => {
     setSearchTerm("");
     setShowEventList(false);
     setSelectedLocation("");
+    setSelectedDate(null)
   };
 
   return (
@@ -91,6 +95,8 @@ const EventProvider = ({ children }) => {
         showEventList,
         selectedLocation,
         setSelectedLocation,
+        selectedDate,
+        setSelectedDate
       }}
     >
       {children}
