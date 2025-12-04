@@ -45,10 +45,11 @@ const EventLocation = () => {
         <BiMap />
       </div>
       <Select
+      className="flex-1"
         value={selectedLocation}
         onValueChange={(value) => setSelectedLocation(value)}
       >
-        <SelectTrigger className="bg-transparent border-none focus:ring-0 focus:ring-offset-0 text-left p-0 text-[var(--color-text)]">
+        <SelectTrigger className="bg-transparent border-none focus:ring-0 focus:ring-offset-0 text-left p-0 text-[var(--color-text)] w-full justify-between">
           <SelectValue placeholder="Lugares" />
         </SelectTrigger>
         <SelectContent>
