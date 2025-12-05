@@ -12,27 +12,45 @@ const EventProvider = ({ children }) => {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");
-  const [selectedDate, setSelectedDate] = useState("");
+  const [selectedDate, setSelectedDate] = useState(null);
 
   const [appliedFilters, setAppliedFilters] = useState({
     searchTerm: "",
     selectedLocation: "",
-    selectedDate: null
+    selectedDate: null,
   });
 
   const filteredEvents = useMemo(() => {
+    const today = new Date();
     return events.filter((event) => {
+      const eventDate = new Date(event.date);
+      if (eventDate < today) return false;
+
       const matchesSearch = appliedFilters.searchTerm
         ? event.title
             .toLowerCase()
             .includes(appliedFilters.searchTerm.toLowerCase())
         : true;
 
-  
+      const matchesLocation = appliedFilters.selectedLocation
+        ? event.location.toLowerCase() ===
+          appliedFilters.selectedLocation.toLowerCase()
+        : true;
 
-      const matchesLocation = appliedFilters.selectedLocation ? event.location.toLowerCase() === appliedFilters.selectedLocation.toLowerCase() : true;
+      const matchesDate = appliedFilters.selectedDate
+        ? (() => {
+            const eventFormatted = eventDate.toISOString().split("T")[0];
+            const selectedFormatted = new Date(appliedFilters.selectedDate)
+              .toISOString()
+              .split("T")[0];
 
-          return matchesSearch && matchesLocation;
+            const sonIguales = eventFormatted === selectedFormatted;
+
+            return sonIguales;
+          })()
+        : true;
+
+      return matchesSearch && matchesLocation && matchesDate;
     });
   }, [events, appliedFilters]);
 
@@ -44,6 +62,8 @@ const EventProvider = ({ children }) => {
         if (!res.ok) throw new Error("Failed to fetch events");
         const data = await res.json();
         setEvents(data);
+
+        console.log("eventos desde momgodb atlas", data);
 
         // //para de cargar
         // setIsLoading(false);
@@ -67,7 +87,7 @@ const EventProvider = ({ children }) => {
     setAppliedFilters({
       searchTerm,
       selectedLocation,
-      selectedDate
+      selectedDate,
     });
     setTimeout(() => {
       setIsLoading(false);
@@ -78,7 +98,7 @@ const EventProvider = ({ children }) => {
     setSearchTerm("");
     setShowEventList(false);
     setSelectedLocation("");
-    setSelectedDate(null)
+    setSelectedDate(null);
   };
 
   return (
@@ -96,7 +116,7 @@ const EventProvider = ({ children }) => {
         selectedLocation,
         setSelectedLocation,
         selectedDate,
-        setSelectedDate
+        setSelectedDate,
       }}
     >
       {children}
