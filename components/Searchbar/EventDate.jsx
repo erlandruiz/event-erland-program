@@ -34,7 +34,7 @@ const EventDate = () => {
           <Button
             className=" 
       flex items-center justify-start gap-2
-        h-9
+      h-9
         bg-transparent border-none
         px-0
         text-sm text-[var(--color-text)]

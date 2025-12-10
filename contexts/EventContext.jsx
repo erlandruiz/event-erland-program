@@ -13,11 +13,13 @@ const EventProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");
   const [selectedDate, setSelectedDate] = useState(null);
+  const [selectedType, setSelectedType] = useState("");
 
   const [appliedFilters, setAppliedFilters] = useState({
     searchTerm: "",
     selectedLocation: "",
     selectedDate: null,
+    selectedType,
   });
 
   const filteredEvents = useMemo(() => {
@@ -63,12 +65,12 @@ const EventProvider = ({ children }) => {
         const data = await res.json();
         setEvents(data);
 
-        console.log("eventos desde momgodb atlas", data);
+      
 
         // //para de cargar
         // setIsLoading(false);
       } catch (err) {
-        console.error(err);
+       
         setError(err.message || "Error al cargar eventos");
 
         // //para de cargar
@@ -88,6 +90,7 @@ const EventProvider = ({ children }) => {
       searchTerm,
       selectedLocation,
       selectedDate,
+      selectedType,
     });
     setTimeout(() => {
       setIsLoading(false);
@@ -99,6 +102,7 @@ const EventProvider = ({ children }) => {
     setShowEventList(false);
     setSelectedLocation("");
     setSelectedDate(null);
+    setSelectedType("");
   };
 
   return (
@@ -117,6 +121,8 @@ const EventProvider = ({ children }) => {
         setSelectedLocation,
         selectedDate,
         setSelectedDate,
+        selectedType,
+        setSelectedType
       }}
     >
       {children}
