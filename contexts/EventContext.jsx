@@ -52,7 +52,9 @@ const EventProvider = ({ children }) => {
           })()
         : true;
 
-      return matchesSearch && matchesLocation && matchesDate;
+        const matchesType = appliedFilters.selectedType ? event.type.toLowerCase() === appliedFilters.selectedType.toLowerCase() : true
+
+      return matchesSearch && matchesLocation && matchesDate && matchesType;
     });
   }, [events, appliedFilters]);
 
