@@ -1,9 +1,10 @@
 "use client";
 
 import EventList from "@/components/Events/EventList";
-import Searchbar from "@/components/Searchbar/Searchbar";
+
 import { useContext } from "react";
 import { EventContext } from "@/contexts/EventContext";
+import Hero from "@/components/Hero";
 
 const Home = () => {
   const {
@@ -21,14 +22,10 @@ const Home = () => {
 
   return (
     <div>
+          <Hero/>
       <div className="flex flex-col justify-center items-center">
-        <Searchbar />
-        <button
-          className="btn text-[var(--color-accent)]"
-          onClick={() => handleClearSearch()}
-        >
-          Limpiar búsqueda
-        </button>
+
+       
       </div>
 
       {showEventList ? (
