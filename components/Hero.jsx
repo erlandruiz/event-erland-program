@@ -26,7 +26,7 @@ const Hero = () => {
     <section className="h-screen xl:h-[800px] mb-16 relative pt-[env(safe-area-inset-top)]">
       <div className="container mx-auto h-full flex flex-col justify-center items-center pt-20 xl:pt-0">
         <div className="w-full max-w-[684px] text-center mx-auto flex flex-col gap-2">
-          <div className="pretitle">
+          <div className="pretitle leading-normal overflow-visible">
             Explora eventos y vive nuevas experiencias.
           </div>
           <h1 className="h1">
