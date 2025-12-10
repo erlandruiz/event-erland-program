@@ -32,7 +32,7 @@ const Hero = () => {
           <h1 className="h1">
             Eventos que se viven <br /> historias que se recuerdan.
           </h1>
-          <p className="text-sm xl:text-lg font-light text-[var(--color-secondary)] mb-4 xl:mb-12 max-w-[480px] xl:max-w-none mx-auto">
+          <p className="text-sm xl:text-lg font-light text-[var(--color-text)] mb-4 xl:mb-12 max-w-[480px] xl:max-w-none mx-auto">
             Explora una selección de actividades diseñadas para todos los
             gustos. Desde encuentros culturales hasta experiencias inolvidables,
             aquí encontrarás el evento perfecto para crear nuevos recuerdos.
