@@ -2,14 +2,14 @@
   "events": [
     {
       "id": "1",
-      "type": "musica",
+      "type": "music",
       "img_sm": "/assets/upcoming/img/music/1-sm.png",
       "img_lg": "/assets/upcoming/img/music/1-lg.png",
       "date": "2026-02-05",
       "hour": "20:00",
-      "title": "Concierto Rock en Vivo",
-      "location": "Estadio Nacional, Lima",
-      "description": "Vive una noche de rock en vivo con las mejores bandas invitadas del país, sonido profesional y un ambiente lleno de energía en el Estadio Nacional de Lima.",
+      "title": "Rock Legends Live Concert",
+      "location": "Square Garden, New York",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
       "seats": [
         {
           "seat": "frontseat",
@@ -87,14 +87,14 @@
     },
     {
       "id": "2",
-      "type": "musica",
+      "type": "music",
       "img_sm": "/assets/upcoming/img/music/2-sm.png",
       "img_lg": "/assets/upcoming/img/music/2-lg.png",
       "date": "2026-02-05",
       "hour": "19:00",
-       "title": "Noche de Jazz en Miraflores",
-      "location": "Centro Cultural, Miraflores - Lima",
-      "description": "Disfruta de una velada íntima de jazz con solistas y ensambles en vivo, en un acogedor centro cultural en Miraflores.",
+      "title": "Jazz Night Live",
+      "location": "Blue Note, New York",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
       "seats": [
         {
           "seat": "frontseat",
@@ -172,14 +172,14 @@
     },
     {
       "id": "3",
-      "type": "arte",
+      "type": "art",
       "img_sm": "/assets/upcoming/img/art/3-sm.png",
       "img_lg": "/assets/upcoming/img/art/3-lg.png",
       "date": "2026-02-20",
       "hour": "10:00",
-      "title": "Festival de Arte Urbano",
-      "location": "Boulevard de la Cultura, Trujillo",
-      "description": "Artistas urbanos de diferentes regiones del Perú se reúnen para intervenir muros, mostrar murales, grafitis y performances en vivo en el boulevard de Trujillo.",
+      "title": "Street Art Festival",
+      "location": "Art District, Berlin",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -276,14 +276,14 @@
     },
     {
       "id": "4",
-      "type": "arte",
+      "type": "art",
       "img_sm": "/assets/upcoming/img/art/2-sm.png",
       "img_lg": "/assets/upcoming/img/art/2-lg.png",
       "date": "2026-02-01",
       "hour": "11:00",
-      "title": "Exposición de Pintura Contemporánea",
-      "location": "Museo de Arte de Lima (MALI), Lima",
-      "description": "Muestra colectiva de pintura contemporánea con obras de artistas peruanos emergentes y consolidados, en las salas del MALI.",
+      "title": "Impressionist Art Exhibition",
+      "location": "Louvre Museum, Paris",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.paintings.",
       "seats": [
         {
           "seat": "frontseat",
@@ -361,14 +361,14 @@
     },
     {
       "id": "5",
-      "type": "arte",
+      "type": "art",
       "img_sm": "/assets/upcoming/img/art/1-sm.png",
       "img_lg": "/assets/upcoming/img/art/1-lg.png",
       "date": "2026-01-10",
       "hour": "18:00",
-      "title": "Exposición Arte y Patrimonio",
-      "location": "Museo Vicús, Piura",
-      "description": "Una exposición que combina piezas inspiradas en la cultura Vicús con propuestas artísticas modernas, resaltando la identidad del norte del Perú.",
+      "title": "Art Nouveau Exhibition",
+      "location": "Art Museum, New York",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
       "seats": [
         {
           "seat": "frontseat",
@@ -446,14 +446,14 @@
     },
     {
       "id": "6",
-     "type": "gastronomia",
+      "type": "food",
       "img_sm": "/assets/upcoming/img/food/1-sm.png",
       "img_lg": "/assets/upcoming/img/food/1-lg.png",
       "date": "2026-01-20",
       "hour": "14:00",
-      "title": "Festival Gastronómico Peruano",
-      "location": "Parque de la Exposición, Lima",
-      "description": "Sabores de la costa, sierra y selva en un solo lugar: restaurantes, carretillas y chefs invitados presentan sus mejores platos típicos peruanos.",
+      "title": "Gourmet Food Festival",
+      "location": "Central Park, New York",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
       "seats": [
         {
           "seat": "frontseat",
@@ -531,14 +531,14 @@
     },
     {
       "id": "7",
-      "type": "gastronomia",
+      "type": "food",
       "img_sm": "/assets/upcoming/img/food/2-sm.png",
       "img_lg": "/assets/upcoming/img/food/2-lg.png",
       "date": "2026-02-10",
       "hour": "12:00",
-      "title": "Clase de Cocina Vegana Peruana",
-      "location": "Escuela de Cocina, San Isidro - Lima",
-      "description": "Aprende a preparar versiones veganas de platos clásicos peruanos con ingredientes locales y técnicas sencillas.",
+      "title": "Vegan Delights Cooking Class",
+      "location": "Culinary School, Los Angeles",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -597,14 +597,14 @@
     },
     {
       "id": "8",
-      "type": "deporte",
+      "type": "sport",
       "img_sm": "/assets/upcoming/img/sport/2-sm.png",
       "img_lg": "/assets/upcoming/img/sport/2-lg.png",
       "date": "2026-02-15",
       "hour": "09:30",
-      "title": "Torneo Nacional de Fútbol 7",
-      "location": "Complejo Deportivo, Arequipa",
-      "description": "Equipos de diferentes regiones del país compiten en un torneo de fútbol 7 lleno de emoción, en un moderno complejo deportivo arequipeño.",
+      "title": "International Cricket Tournament",
+      "location": "Cricket Ground, London",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
       "seats": [
         {
           "seat": "frontseat",
@@ -663,14 +663,14 @@
     },
     {
       "id": "9",
-      "type": "deporte",
+      "type": "sport",
       "img_sm": "/assets/upcoming/img/sport/1-sm.png",
       "img_lg": "/assets/upcoming/img/sport/1-lg.png",
       "date": "2026-01-25",
       "hour": "16:00",
-      "title": "Final de Campeonato de Básquet",
-      "location": "Coliseo Cerrado, Chiclayo",
-      "description": "Los mejores clubes de básquet del norte se enfrentan en la gran final del campeonato regional, en el coliseo cerrado de Chiclayo.",
+      "title": "Basketball Championship Final",
+      "location": "Staples Center, Los Angeles",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -767,14 +767,14 @@
     },
     {
       "id": "10",
-      "type": "musica",
+      "type": "music",
       "img_sm": "/assets/upcoming/img/music/3-sm.png",
       "img_lg": "/assets/upcoming/img/music/3-lg.png",
       "date": "2026-02-25",
       "hour": "20:00",
-      "title": "Noche de Música Clásica",
-     "location": "Teatro Municipal, Cusco",
-      "description": "Una orquesta de cámara interpreta piezas clásicas y contemporáneas en el histórico Teatro Municipal de Cusco.",
+      "title": "Classical Symphony Performance",
+      "location": "Concert Hall, Vienna",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -852,14 +852,14 @@
     },
     {
       "id": "11",
-      "type": "gastronomia",
+      "type": "food",
       "img_sm": "/assets/upcoming/img/food/3-sm.png",
       "img_lg": "/assets/upcoming/img/food/3-lg.png",
       "date": "2026-03-01",
       "hour": "14:00",
-      "title": "Festival de Parrillas y Anticuchos",
-      "location": "Campo Ferial, Sullana",
-      "description": "Parrillas, anticuchos, chorizos y más en un festival dedicado a la cocina a la brasa, con música en vivo y actividades familiares.",
+      "title": "BBQ Feast Extravaganza",
+      "location": "Park Plaza, Miami",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -937,14 +937,14 @@
     },
     {
       "id": "12",
-      "type": "deporte",
+      "type": "sport",
       "img_sm": "/assets/upcoming/img/sport/3-sm.png",
       "img_lg": "/assets/upcoming/img/sport/3-lg.png",
       "date": "2026-03-05",
       "hour": "17:00",
-      "title": "Fecha Clasificatoria de Fútbol",
-      "location": "Estadio Mansiche, Trujillo",
-      "description": "Partido de alto nivel en el Estadio Mansiche, con equipos que buscan asegurar su clasificación en el torneo nacional.",
+      "title": "Football World Cup Qualifiers",
+      "location": "Wembley Stadium, London",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -1022,14 +1022,14 @@
     },
     {
       "id": "13",
-      "type": "arte",
+      "type": "art",
       "img_sm": "/assets/upcoming/img/art/4-sm.png",
       "img_lg": "/assets/upcoming/img/art/4-lg.png",
       "date": "2026-03-10",
       "hour": "18:00",
-      "title": "Encuentro de Arte Moderno",
-      "location": "Centro Cultural, Arequipa",
-      "description": "Conversatorios, exposiciones y muestras de arte moderno con la participación de artistas locales y nacionales.",
+      "title": "Modern Art Symposium",
+      "location": "Art Institute, Chicago",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -1107,14 +1107,14 @@
     },
     {
       "id": "14",
-      "type": "musica",
+      "type": "music",
       "img_sm": "/assets/upcoming/img/music/4-sm.png",
       "img_lg": "/assets/upcoming/img/music/4-lg.png",
       "date": "2026-03-15",
       "hour": "19:00",
-      "title": "Gala de Ópera y Zarzuela",
-      "location": "Gran Teatro Nacional, Lima",
-      "description": "Voces líricas y orquesta en vivo interpretan arias de ópera y fragmentos de zarzuela en el Gran Teatro Nacional.",
+      "title": "Opera Gala Performance",
+      "location": "Scala, Milan",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -1173,14 +1173,14 @@
     },
     {
       "id": "15",
-      "type": "gastronomia",
+      "type": "food",
       "img_sm": "/assets/upcoming/img/food/4-sm.png",
       "img_lg": "/assets/upcoming/img/food/4-lg.png",
       "date": "2026-03-20",
       "hour": "13:00",
-      "title": "Masterclass de Sushi Nikkei",
-      "location": "Restaurante Nikkei, Miraflores - Lima",
-      "description": "Clase práctica para aprender técnicas de sushi con influencia nikkei, combinando sabores japoneses y peruanos.",
+      "title": "Sushi Masterclass",
+      "location": "Sushi School, Tokyo",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -1239,14 +1239,14 @@
     },
     {
       "id": "16",
-      "type": "deporte",
+      "type": "sport",
       "img_sm": "/assets/upcoming/img/sport/4-sm.png",
       "img_lg": "/assets/upcoming/img/sport/4-lg.png",
       "date": "2026-03-25",
       "hour": "10:00",
-      "title": "Abierto de Tenis del Pacífico",
-      "location": "Club de Tenis, Piura",
-      "description": "Tenistas nacionales e invitados internacionales compiten en canchas de arcilla bajo el sol piurano.",
+      "title": "Tennis Open Championship",
+      "location": "Roland Garros, Paris",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -1366,14 +1366,14 @@
     },
     {
       "id": "17",
-      "type": "arte",
+      "type": "art",
       "img_sm": "/assets/upcoming/img/art/5-sm.png",
       "img_lg": "/assets/upcoming/img/art/5-lg.png",
       "date": "2026-04-01",
       "hour": "11:00",
-      "title": "Muestra de Fotografía Documental",
-      "location": "Galería Municipal, Huancayo",
-      "description": "Exposición de fotografía documental que retrata la vida cotidiana y paisajes de la sierra central del Perú.",
+      "title": "Photography Exhibition",
+      "location": "National Gallery, London",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -1432,14 +1432,14 @@
     },
     {
       "id": "18",
-      "type": "musica",
+      "type": "music",
       "img_sm": "/assets/upcoming/img/music/5-sm.png",
       "img_lg": "/assets/upcoming/img/music/5-lg.png",
       "date": "2026-04-05",
       "hour": "20:00",
-      "title": "Festival de Rock Independiente",
-      "location": "Parque Zonal, Lima Norte",
-      "description": "Bandas independientes de rock se presentan en un festival al aire libre con zonas de comida y stands de emprendimientos.",
+      "title": "Indie Rock Festival",
+      "location": "The Forum, Los Angeles",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
@@ -1498,14 +1498,14 @@
     },
     {
       "id": "19",
-      "type": "gastronomia",
+      "type": "food",
       "img_sm": "/assets/upcoming/img/food/5-sm.png",
       "img_lg": "/assets/upcoming/img/food/5-lg.png",
       "date": "2026-04-10",
       "hour": "12:00",
-      "title": "Festival Vegano del Norte",
-      "location": "Parque Central, Chiclayo",
-      "description": "Feria gastronómica vegana con propuestas saludables, productos orgánicos y opciones de comida rápida a base de vegetales.",
+      "title": "Vegan Food Festival",
+      "location": "Green Park, Los Angeles",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
       "seats": [
         {
           "seat": "frontseat",
