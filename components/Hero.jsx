@@ -55,8 +55,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bg-[var(--color-secondary)] top-0 left-0 w-[50vw] h-full bg-hero-1  bg-blend-color-dodge bg-no-repeat bg-cover -z-10 opacity-50"></div>
-      <div className="absolute bg-[var(--color-secondary)] top-0 right-0 w-[50vw] h-full bg-hero-2  bg-blend-lighten bg-no-repeat bg-cover -z-10 opacity-50"></div>
+      <div className="absolute bg-[var(--color-secondary)] top-0 left-0 w-[50vw] h-full bg-hero-1  bg-blend-color-dodge bg-no-repeat bg-cover -z-10 "></div>
+      <div className="absolute bg-[var(--color-secondary)] top-0 right-0 w-[50vw] h-full bg-hero-2  bg-blend-lighten bg-no-repeat bg-cover -z-10 "></div>
     </section>
   );
 };
