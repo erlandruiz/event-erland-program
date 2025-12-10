@@ -267,3 +267,43 @@ h6 {
 .swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   background-color: var(--color-accent);
 }
+
+
+/* Animación flotante para el drone */
+@keyframes droneFloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.drone-float {
+  animation: droneFloat 2.5s ease-in-out infinite;
+}
+
+
+@keyframes droneHover {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-2px) rotate(2deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+.drone-hover {
+  animation: droneHover 0.8s ease-in-out infinite;
+}
+
+
+@keyframes droneFly {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(8px); }
+  100% { transform: translateX(0); }
+}
+
+.drone-fly {
+  animation: droneFly 2s ease-in-out infinite;
+}
