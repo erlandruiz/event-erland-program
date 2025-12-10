@@ -33,7 +33,7 @@ const EventDate = () => {
         <PopoverTrigger asChild>
           <Button
             className=" 
-      flex items-center justify-between gap-2
+      flex items-center justify-start gap-2
         h-9
         bg-transparent border-none
         px-0
@@ -61,6 +61,7 @@ const EventDate = () => {
             mode="single"
             selected={selectedDate}
             onSelect={handleDateChange}
+            defaultMonth={selectedDate || new Date()}
             initialFocus
           />
         </PopoverContent>
