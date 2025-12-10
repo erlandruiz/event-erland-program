@@ -24,7 +24,7 @@ const Hero = () => {
   } = useContext(EventContext);
   return (
     <section className="h-screen xl:h-[800px] mb-16 relative">
-      <div className="container mx-auto">
+      <div className="container mx-auto h-full flex flex-col justify-center items-center pt-12 xl:pt-0">
         <div className="w-full max-w-[684px] text-center mx-auto flex flex-col gap-2">
           <div className="pretitle">
             Explora eventos y vive nuevas experiencias.
@@ -40,14 +40,23 @@ const Hero = () => {
         </div>
         <div>
           <Searchbar />
-          <button
-            className="btn text-[var(--color-accent)]"
-            onClick={() => handleClearSearch()}
-          >
-            Limpiar búsqueda
-          </button>
+          <div className="w-full  mt-3 relative flex flex-col justify-center">
+            <p className="text-sm italic font-light text-[var(--color-text)] text-center mb-3 xl:mb-0">
+              Por favor seleccione al menos un evento o deje los campos vacios
+              para ver todos los eventos
+            </p>
+            <button
+              className="btn text-[var(--color-accent)] text-sm xl:absolute right-0"
+              onClick={() => handleClearSearch()}
+            >
+              Limpiar búsqueda
+            </button>
+          </div>
         </div>
       </div>
+
+      <div className="absolute bg-[var(--color-primary)] top-0 left-0 w-[50vw] h-full bg-hero-1  bg-blend-color-dodge bg-no-repeat bg-cover -z-10 opacity-50"></div>
+      <div className="absolute bg-[var(--color-primary)] top-0 right-0 w-[50vw] h-full bg-hero-2  bg-blend-lighten bg-no-repeat bg-cover -z-10 opacity-50"></div>
     </section>
   );
 };
