@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-full">
 
             <Link href="/">
-                <LogoErland/>
+                <LogoErland />
             </Link>
             <div className="flex gap-4">
                 <button className="btn bg-[var(--color-tertiary)]">Ingresar</button>
