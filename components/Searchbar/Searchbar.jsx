@@ -4,6 +4,7 @@ import { EventContext } from "@/contexts/EventContext";
 import EventLocation from "./EventLocation";
 import ThemeToggle from "../ThemeToggle";
 import EventDate from "./EventDate";
+import EventType from "./EventType";
 
 const Searchbar = () => {
   const { handleSubmit } = useContext(EventContext);
@@ -16,7 +17,7 @@ const Searchbar = () => {
       {/**event date */}
      <EventDate/>
       {/**event TYPE */}
-      <div className="text-[var(--color-text-muted)] hidden md:block">Event TYPE</div>
+      <EventType/>
       {/**BTN SUBMIT  */}
       <button
         onClick={handleSubmit}
