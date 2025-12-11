@@ -5,6 +5,7 @@ import EventList from "@/components/Events/EventList";
 import { useContext } from "react";
 import { EventContext } from "@/contexts/EventContext";
 import Hero from "@/components/Hero";
+import UpcomingEvents from "@/components/UpcomingEvents";
 
 const Home = () => {
   const {
@@ -35,7 +36,7 @@ const Home = () => {
       ) : (
         <div>
           <div className="container mx-auto">
-            <div>upcoming events slider</div>
+            <UpcomingEvents/>
             <div>Descargar seccion de la App</div>
             <div>Eventos recomendados</div>
           </div>
