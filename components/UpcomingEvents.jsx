@@ -14,9 +14,8 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "./ui/tabs";
 
 import Link from "next/link";
 import Image from "next/image";
-
-import { Event } from "./Events/Event";
-import { SkeletonGrid } from "./SkeletonGrid";
+import SkeletonGrid from "./SkeletonGrid";
+import Event from "./Events/Event";
 
 const UpcomingEvents = () => {
   const {
@@ -55,15 +54,87 @@ const UpcomingEvents = () => {
     filterEvents();
   }, [eventValue, events]);
 
-  return <div>
-    <Tabs>
-        <TabsList>
-            <TabsTrigger>
-                Todos
+  return (
+    <section className="mb-16">
+      <div className="mb-12 text-center">
+        <h3 className="pretitle">Próximos Eventos</h3>
+        <h2 className="h2">Eventos Populares</h2>
+      </div>
+      <div className="flex flex-col xl:flex-row items-center justify-between mb-12">
+        <Tabs
+          value={eventValue}
+          onValueChange={setEventValue}
+          className="w-full max-w-[600px] h-full flex justify-center items-center mb-12 xl:mb-0"
+        >
+          <TabsList className="flex flex-col lg:flex-row gap-6 w-full h-full bg-transparent">
+            <TabsTrigger value="todos">
+              Todos
             </TabsTrigger>
-        </TabsList>
-    </Tabs>
-  </div>;
+            <TabsTrigger value="deporte">
+              <Image
+                src={"/assets/upcoming/sport.svg"}
+                width={18}
+                height={18}
+                alt=""
+              />Deporte
+            </TabsTrigger>
+            <TabsTrigger value="musica">
+              <Image
+                src={"/assets/upcoming/music.svg"}
+                width={18}
+                height={18}
+                alt=""
+              />Musica
+            </TabsTrigger>
+            <TabsTrigger value="gastronomia">
+              <Image
+                src={"/assets/upcoming/food.svg"}
+                width={18}
+                height={18}
+                alt=""
+              />Gastronomia
+            </TabsTrigger>
+            <TabsTrigger value="arte">
+              <Image
+                src={"/assets/upcoming/art.svg"}
+                width={18}
+                height={18}
+                alt=""
+              />Arte
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
+      </div>
+
+      {/*slider*/}
+      {filteredEvents.length > 0 ? (
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={30}
+          pagination={{ dynamicBullets: true, clickable: true }}
+          breakpoints={{
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+            1310: { slidesPerView: 4 },
+          }}
+          modules={{ Pagination }}
+          className="w-full h-[500px]"
+        >
+          {filteredEvents.map((event, index) => {
+            return (
+              <SwiperSlide key={index} className="select-none">
+                <Link href="">
+                  <Event event={event} />
+                </Link>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      ) : (
+        <SkeletonGrid itemCount={4} />
+      )}
+    </section>
+  );
 };
 
 export default UpcomingEvents;
