@@ -20,20 +20,7 @@ import Event from "./Events/Event";
 const UpcomingEvents = () => {
   const {
     events,
-    isLoading,
-    error,
-    searchTerm,
-    setSearchTerm,
-
-    handleSubmit,
-    handleClearSearch,
-    showEventList,
-    selectedLocation,
-    setSelectedLocation,
-    selectedDate,
-    setSelectedDate,
-    selectedType,
-    setSelectedType,
+  
   } = useContext(EventContext);
 
   const [eventValue, setEventValue] = useState("todos");
@@ -104,6 +91,7 @@ const UpcomingEvents = () => {
             </TabsTrigger>
           </TabsList>
         </Tabs>
+        <Link href={""} className="uppercase border-b-2 border-[var(--color-accent)] text-sm font-semibold text-[var(--color-accent)]">Ver todos los eventos</Link>
       </div>
 
       {/*slider*/}
@@ -117,7 +105,7 @@ const UpcomingEvents = () => {
             1024: { slidesPerView: 3 },
             1310: { slidesPerView: 4 },
           }}
-          modules={{ Pagination }}
+          modules={ [Pagination] }
           className="w-full h-[500px]"
         >
           {filteredEvents.map((event, index) => {
