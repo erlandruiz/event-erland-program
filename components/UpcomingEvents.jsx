@@ -70,7 +70,7 @@ const UpcomingEvents = () => {
               </span>
             </TabsTrigger>
             <TabsTrigger>
-              <MusicIcon className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]: text-[var(--color-text)]"/>
+              <MusicIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
               <span className="group-data-[state=active]:text-[var(--color-text)]">Música</span>
             </TabsTrigger>
           
