@@ -17,7 +17,7 @@ const MusicIcon = ({ className = "" }) => {
           width="18"
           height="18"
         >
-          <path d="M18 0H0V18H18V0Z" fill="currentColor" />
+          <path d="M18 0H0V18H18V0Z" fill="white" />
         </mask>
 
         <g mask="url(#mask0_6_329)">
