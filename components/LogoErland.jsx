@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 const LogoErland = () => {
   return (
     <div className="flex items-center gap-2 select-none">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col md:flex-row gap-2 items-center">
         <TbDrone className="text-[var(--color-accent)] text-4xl drone-float opacity-90" />
         <ThemeToggle />
       </div>
