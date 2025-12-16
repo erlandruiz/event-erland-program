@@ -28,8 +28,7 @@ const Searchbar = () => {
       >
         Consultar
       </button>
-      {/* 👇 Aquí va el icono de modo oscuro / claro */}
-      <ThemeToggle/>
+    
     </div>
   );
 };

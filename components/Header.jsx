@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import LogoErland from "./LogoErland";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
@@ -8,9 +9,15 @@ const Header = () => {
       <div className="container mx-auto h-full border-b border-[var(--color-secondary)] py-4 xl:py-6">
         <div className="flex justify-between items-center h-full">
 
-            <Link href="/">
+          
+              <Link href="/">
                 <LogoErland />
+               
             </Link>
+
+      
+
+          
             <div className="flex gap-4">
                 <button className="btn bg-[var(--color-tertiary)]">Ingresar</button>
                 <button className="btn bg-[var(--color-accent)]">Resgistrarse</button>
