@@ -17,6 +17,7 @@ import Image from "next/image";
 import SkeletonGrid from "./SkeletonGrid";
 import Event from "./Events/Event";
 import SportIcon from "./icons/SportIcon";
+import MusicIcon from "./icons/MusicIcon";
 
 const UpcomingEvents = () => {
   const { events } = useContext(EventContext);
@@ -68,15 +69,11 @@ const UpcomingEvents = () => {
                 Deporte
               </span>
             </TabsTrigger>
-            <TabsTrigger value="musica">
-              <Image
-                src={"/assets/upcoming/music.svg"}
-                width={18}
-                height={18}
-                alt=""
-              />
-              Musica
+            <TabsTrigger>
+              <MusicIcon className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]: text-[var(--color-text)]"/>
+              <span className="group-data-[state=active]:text-[var(--color-text)]">Música</span>
             </TabsTrigger>
+          
             <TabsTrigger value="gastronomia">
               <Image
                 src={"/assets/upcoming/food.svg"}
