@@ -16,12 +16,10 @@ import Link from "next/link";
 import Image from "next/image";
 import SkeletonGrid from "./SkeletonGrid";
 import Event from "./Events/Event";
+import SportIcon from "./icons/SportIcon";
 
 const UpcomingEvents = () => {
-  const {
-    events,
-  
-  } = useContext(EventContext);
+  const { events } = useContext(EventContext);
 
   const [eventValue, setEventValue] = useState("todos");
   const [filteredEvents, setFilteredEvents] = useState([]);
@@ -54,16 +52,21 @@ const UpcomingEvents = () => {
           className="w-full max-w-[600px] h-full flex justify-center items-center mb-12 xl:mb-0"
         >
           <TabsList className="flex flex-col lg:flex-row gap-6 w-full h-full bg-transparent">
-            <TabsTrigger value="todos">
-              Todos
-            </TabsTrigger>
-            <TabsTrigger value="deporte">
-              <Image
+            <TabsTrigger value="todos">Todos</TabsTrigger>
+            {/* <TabsTrigger value="deporte">
+              <Image 
+              
                 src={"/assets/upcoming/sport.svg"}
                 width={18}
                 height={18}
                 alt=""
               />Deporte
+            </TabsTrigger> */}
+            <TabsTrigger value="deporte" className="group flex items-center gap-2">
+              <SportIcon className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
+              <span className="group-data-[state=active]:text-[var(--color-text)]">
+                Deporte
+              </span>
             </TabsTrigger>
             <TabsTrigger value="musica">
               <Image
@@ -71,7 +74,8 @@ const UpcomingEvents = () => {
                 width={18}
                 height={18}
                 alt=""
-              />Musica
+              />
+              Musica
             </TabsTrigger>
             <TabsTrigger value="gastronomia">
               <Image
@@ -79,7 +83,8 @@ const UpcomingEvents = () => {
                 width={18}
                 height={18}
                 alt=""
-              />Gastronomia
+              />
+              Gastronomia
             </TabsTrigger>
             <TabsTrigger value="arte">
               <Image
@@ -87,11 +92,17 @@ const UpcomingEvents = () => {
                 width={18}
                 height={18}
                 alt=""
-              />Arte
+              />
+              Arte
             </TabsTrigger>
           </TabsList>
         </Tabs>
-        <Link href={""} className="uppercase border-b-2 border-[var(--color-accent)] text-sm font-semibold text-[var(--color-accent)]">Ver todos los eventos</Link>
+        <Link
+          href={""}
+          className="uppercase border-b-2 border-[var(--color-accent)] text-sm font-semibold text-[var(--color-accent)]"
+        >
+          Ver todos los eventos
+        </Link>
       </div>
 
       {/*slider*/}
@@ -105,7 +116,7 @@ const UpcomingEvents = () => {
             1024: { slidesPerView: 3 },
             1310: { slidesPerView: 4 },
           }}
-          modules={ [Pagination] }
+          modules={[Pagination]}
           className="w-full h-[500px]"
         >
           {filteredEvents.map((event, index) => {
