@@ -6,6 +6,7 @@ import { useContext } from "react";
 import { EventContext } from "@/contexts/EventContext";
 import Hero from "@/components/Hero";
 import UpcomingEvents from "@/components/UpcomingEvents";
+import RecommendedEvents from "@/components/RecommendedEvents";
 
 const Home = () => {
   const {
@@ -38,7 +39,7 @@ const Home = () => {
           <div className="container mx-auto">
             <UpcomingEvents/>
             <div>Descargar seccion de la App</div>
-            <div>Eventos recomendados</div>
+            <RecommendedEvents/>
           </div>
         </div>
       )}

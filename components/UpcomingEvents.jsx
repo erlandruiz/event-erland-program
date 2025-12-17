@@ -75,9 +75,9 @@ const UpcomingEvents = () => {
               <MusicIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
               <span className="group-data-[state=active]:text-[var(--color-text)]">Música</span>
             </TabsTrigger>
-             <TabsTrigger value="gastronomia" className="group flex items-center gap-2 ">
-              <FoodIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
-              <span className="group-data-[state=active]:text-[var(--color-text)]">Gastronomía</span>
+             <TabsTrigger value="gastronomia" className="group flex items-center gap-2">
+              <FoodIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)] " />
+              <span className="group-data-[state=active]:text-[var(--color-text)] ">Gastronomía</span>
             </TabsTrigger>
             <TabsTrigger value="arte" className="group flex items-center gap-2 ">
               <ArtIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
