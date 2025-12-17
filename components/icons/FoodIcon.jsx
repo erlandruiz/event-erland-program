@@ -7,7 +7,7 @@ const FoodIcon = ({className=""}) => {
       aria-hidden="true"
       className={className}
     >
-      <g clip-path="url(#clip0_6_352)">
+      <g clipPath="url(#clip0_6_352)">
         <mask
           id="mask0_6_352"
           style= {{maskType: "luminance"}}

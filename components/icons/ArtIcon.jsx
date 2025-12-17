@@ -7,7 +7,7 @@ const ArtIcon = ({ className = "" }) => {
       aria-hidden="true"
       className={className}
     >
-      <g clip-path="url(#clip0_6_372)">
+      <g clipPath="url(#clip0_6_372)">
         <mask
           id="mask0_6_372"
           style={{maskType: "luminance"}}

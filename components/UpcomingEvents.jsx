@@ -54,7 +54,7 @@ const UpcomingEvents = () => {
           onValueChange={setEventValue}
           className="w-full max-w-[600px] h-full flex justify-center items-center mb-12 xl:mb-0"
         >
-          <TabsList className="flex flex-col lg:flex-row gap-6 w-full h-full bg-transparent">
+          <TabsList className="flex flex-col lg:flex-row gap-6 w-full h-full bg-transparent  ">
             <TabsTrigger value="todos">Todos</TabsTrigger>
             {/* <TabsTrigger value="deporte">
               <Image 
@@ -65,21 +65,21 @@ const UpcomingEvents = () => {
                 alt=""
               />Deporte
             </TabsTrigger> */}
-            <TabsTrigger value="deporte" className="group flex items-center gap-2">
+            <TabsTrigger value="deporte" className="group flex items-center gap-2 ">
               <SportIcon className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
               <span className="group-data-[state=active]:text-[var(--color-text)]">
                 Deporte
               </span>
             </TabsTrigger>
-            <TabsTrigger>
+            <TabsTrigger value="musica" className="group flex items-center gap-2 ">
               <MusicIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
               <span className="group-data-[state=active]:text-[var(--color-text)]">Música</span>
             </TabsTrigger>
-             <TabsTrigger>
+             <TabsTrigger value="gastronomia" className="group flex items-center gap-2 ">
               <FoodIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
               <span className="group-data-[state=active]:text-[var(--color-text)]">Gastronomía</span>
             </TabsTrigger>
-            <TabsTrigger>
+            <TabsTrigger value="arte" className="group flex items-center gap-2 ">
               <ArtIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
               <span className="group-data-[state=active]:text-[var(--color-text)]">Arte</span>
             </TabsTrigger>
