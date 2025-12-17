@@ -18,6 +18,8 @@ import SkeletonGrid from "./SkeletonGrid";
 import Event from "./Events/Event";
 import SportIcon from "./icons/SportIcon";
 import MusicIcon from "./icons/MusicIcon";
+import FoodIcon from "./icons/FoodIcon";
+import ArtIcon from "./icons/ArtIcon";
 
 const UpcomingEvents = () => {
   const { events } = useContext(EventContext);
@@ -73,25 +75,17 @@ const UpcomingEvents = () => {
               <MusicIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
               <span className="group-data-[state=active]:text-[var(--color-text)]">Música</span>
             </TabsTrigger>
+             <TabsTrigger>
+              <FoodIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
+              <span className="group-data-[state=active]:text-[var(--color-text)]">Gastronomía</span>
+            </TabsTrigger>
+            <TabsTrigger>
+              <ArtIcon  className="w-[18px] h-[18px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
+              <span className="group-data-[state=active]:text-[var(--color-text)]">Arte</span>
+            </TabsTrigger>
           
-            <TabsTrigger value="gastronomia">
-              <Image
-                src={"/assets/upcoming/food.svg"}
-                width={18}
-                height={18}
-                alt=""
-              />
-              Gastronomia
-            </TabsTrigger>
-            <TabsTrigger value="arte">
-              <Image
-                src={"/assets/upcoming/art.svg"}
-                width={18}
-                height={18}
-                alt=""
-              />
-              Arte
-            </TabsTrigger>
+            
+         
           </TabsList>
         </Tabs>
         <Link
