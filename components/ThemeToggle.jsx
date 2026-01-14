@@ -32,7 +32,7 @@ const ThemeToggle = () => {
     <button
       type="button"
       onClick={toggleTheme}
-      className=" flex items-center justify-center rounded-full bg-[var(--color-tertiary)] hover:bg-[var(--color-tertiary-hover) transition-colors]"
+      className=" flex items-center justify-center rounded-full bg-[var(--color-tertiary)] hover:bg-[var(--color-tertiary-hover)] transition-colors"
     >
       {theme === "dark" ? <BsSunFill className="text-yellow-300 text-3xl"/> : <BsMoonFill className="text-yellow-300  text-3xl" />}
     </button>
