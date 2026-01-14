@@ -20,7 +20,11 @@ const RecommendedEvents = () => {
   });
 
   return (
-    <div>
+    <section className="mb-32">
+      <div className="mb-12 text-center">
+        <h3 className="pretitle h3">Recomendados</h3>
+        <h2 className="h2">Eventos que te pueden gustar</h2>
+      </div>
       {filterRecommendedEvents.length > 0 ? (
         <Swiper
           slidesPerView={1}
@@ -36,7 +40,7 @@ const RecommendedEvents = () => {
         >
           {filterRecommendedEvents.map((event, index) => {
             return (
-              <SwiperSlide key={index}>
+              <SwiperSlide key={index} className="select-none">
                 <Link href={""}>
                   {" "}
                   <Event event={event} />
@@ -48,7 +52,7 @@ const RecommendedEvents = () => {
       ) : (
         <SkeletonGrid itemCount={4} />
       )}
-    </div>
+    </section>
   );
 };
 
