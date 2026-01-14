@@ -1,7 +1,7 @@
 "use client"
 const Footer =()=>{
     return(
-        <footer>
+        <footer className="bg-[var(--color-secondary)] bg-cover bg-blend-multiply pt-16">
             Footer
         </footer>
     )
