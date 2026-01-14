@@ -9,8 +9,8 @@ import GooglePlayIcon from "./icons/GooglePlayIcon";
 const DownloadApp = () => {
   return (
     <section className="w-full md:h-[364px] bg-[var(--color-secondary)] mb-16 rounded-2xl bg-pattern bg-cover p-10 xl:p-20 bg-blend-multiply flex items-center justify-center relative overflow-hidden">
-      {/* <div className="absolute inset-0 bg-[var(--color-accent)] opacity-10 pointer-events-none" /> */}
-      <div className="flex flex-col xl:flex-row items-center gap-6 relative z-10">
+     
+      <div className="flex flex-col xl:flex-row items-center gap-6">
         {/*Text*/}
         <div className="flex-1 text-center xl:text-left">
           <h2 className="h2 mb-4">Disfruta de los eventos en tu teléfono.</h2>
