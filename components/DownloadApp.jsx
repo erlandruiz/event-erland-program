@@ -39,7 +39,7 @@ const DownloadApp = () => {
           </Link>
           <Link href="/" className="flex items-center gap-3 bg-black text-white px-6 py-3 rounded-xl hover:opacity-90 transition">
             <div className="flex items-center gap-3">
-              <GooglePlayIcon className="w-[50px] h-[50px] text-[var(--color-text)] group-data-[state=active]:text-[var(--color-text)]" />
+             <GooglePlayIcon className="w-6 h-6" />
               <div className="flex flex-col leading-tight">
                 <span className="text-xs">Disponible en</span>
                 <span className="text-sm font-semibold">Google Play</span>
