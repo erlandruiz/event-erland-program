@@ -1,24 +1,31 @@
+
+import FacebookIcon from "./components/icons/FacebookIcon";
+import InstagramIcon from "./components/icons/InstagramIcon";
+import YouTubeIcon from "./components/icons/YouTubeIcon";
+import PinterestIcon from "./components/icons/PinterestIcon";
+import XIcon from "./components/icons/XIcon";
+
 const socials = [
   {
-    src: "/assets/footer/facebook.svg",
+    Icon: FacebookIcon,
     path: "#",
   },
   {
-    src: "/assets/footer/x.svg",
+    Icon: XIcon,
     path: "#",
   },
   {
-    src: "/assets/footer/instagram.svg",
+    Icon: InstagramIcon,
     path: "#",
   },
   {
-    src: "/assets/footer/youtube.svg",
+    Icon: YouTubeIcon,
     path: "#",
   },
   {
-    src: "/assets/footer/pinterest.svg",
+    Icon: PinterestIcon,
     path: "#",
-  }
+  },
 ];
 
 export default socials;
