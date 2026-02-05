@@ -107,6 +107,28 @@ const EventProvider = ({ children }) => {
     setSelectedType(null);
   };
 
+
+
+const formatDate = (dateString) => {
+  if (!dateString) return "";
+
+  // dateString: "2026-02-20"
+  const [y, m, d] = dateString.split("-").map(Number);
+
+  // Creamos la fecha como "fecha local" (sin desfase UTC)
+  const date = new Date(y, m - 1, d);
+
+  const options = {
+    weekday: "short",
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    timeZone: "America/Lima",
+  };
+
+  // es-PE = español Perú
+  return new Intl.DateTimeFormat("es-PE", options).format(date);
+};
   return (
     <EventContext.Provider
       value={{
@@ -124,7 +146,8 @@ const EventProvider = ({ children }) => {
         selectedDate,
         setSelectedDate,
         selectedType,
-        setSelectedType
+        setSelectedType,
+        formatDate
       }}
     >
       {children}

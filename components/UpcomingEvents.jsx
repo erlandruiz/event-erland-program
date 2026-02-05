@@ -113,7 +113,7 @@ const UpcomingEvents = () => {
           {filteredEvents.map((event, index) => {
             return (
               <SwiperSlide key={index} className="select-none">
-                <Link href="">
+                <Link href={`/event/${event._id}`}>
                   <Event event={event} />
                 </Link>
               </SwiperSlide>

@@ -11,16 +11,10 @@ export async function GET() {
       .sort({ id: 1 })// opcional: orden por id
       .toArray();
 
-    // ✅ PRO: convertir ObjectId (_id) a string para que el frontend pueda usarlo en rutas (Link)
-    const serializedEvents = events.map((e) => ({
-      ...e,
-      _id: e._id?.toString?.() ?? e._id,
-    }));
-
-    return new Response(JSON.stringify(serializedEvents), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
-    });
+      return new Response (JSON.stringify(events),{
+        status:200,
+        headers:{"Content-Type": "application/json"},
+      })
   } catch (error) {
     console.error("Error al obtener eventos:", error);
     return new Response(
