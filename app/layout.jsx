@@ -3,6 +3,7 @@ import "./globals.css";
 import EventProvider from "@/contexts/EventContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import TicketProvider from "@/contexts/TicketContext";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -24,13 +25,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <EventProvider>
-      <html lang="es">
-        <body className={`${poppins.variable} ${caveat.variable} antialiased`}>
-          <Header/>
-          {children}
-          <Footer/>
-        </body>
-      </html>
+      <TicketProvider>
+        <html lang="es">
+          <body
+            className={`${poppins.variable} ${caveat.variable} antialiased`}
+          >
+            <Header />
+            {children}
+            <Footer />
+          </body>
+        </html>
+      </TicketProvider>
     </EventProvider>
   );
 }

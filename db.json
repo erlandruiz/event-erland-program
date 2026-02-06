@@ -12,11 +12,11 @@
       "description": "Vive una noche de rock en vivo con las mejores bandas invitadas del país, sonido profesional y un ambiente lleno de energía en el Estadio Nacional de Lima.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -28,7 +28,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -47,7 +47,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -66,7 +66,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -97,11 +97,11 @@
       "description": "Disfruta de una velada íntima de jazz con solistas y ensambles en vivo, en un acogedor centro cultural en Miraflores.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -113,7 +113,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -132,7 +132,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -151,7 +151,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -182,11 +182,11 @@
       "description": "Artistas urbanos de diferentes regiones del Perú se reúnen para intervenir muros, mostrar murales, grafitis y performances en vivo en el boulevard de Trujillo.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -198,7 +198,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -217,7 +217,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -236,7 +236,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -255,7 +255,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -286,11 +286,11 @@
       "description": "Muestra colectiva de pintura contemporánea con obras de artistas peruanos emergentes y consolidados, en las salas del MALI.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -302,7 +302,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -321,7 +321,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -340,7 +340,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -371,11 +371,11 @@
       "description": "Una exposición que combina piezas inspiradas en la cultura Vicús con propuestas artísticas modernas, resaltando la identidad del norte del Perú.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -387,7 +387,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -406,7 +406,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -425,7 +425,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -456,11 +456,11 @@
       "description": "Sabores de la costa, sierra y selva en un solo lugar: restaurantes, carretillas y chefs invitados presentan sus mejores platos típicos peruanos.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -472,7 +472,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -491,7 +491,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -510,7 +510,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -541,11 +541,11 @@
       "description": "Aprende a preparar versiones veganas de platos clásicos peruanos con ingredientes locales y técnicas sencillas.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -557,7 +557,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -576,7 +576,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -607,11 +607,11 @@
       "description": "Equipos de diferentes regiones del país compiten en un torneo de fútbol 7 lleno de emoción, en un moderno complejo deportivo arequipeño.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -623,7 +623,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -642,7 +642,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -673,11 +673,11 @@
       "description": "Los mejores clubes de básquet del norte se enfrentan en la gran final del campeonato regional, en el coliseo cerrado de Chiclayo.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -689,7 +689,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -708,7 +708,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -727,7 +727,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -746,7 +746,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -777,11 +777,11 @@
       "description": "Una orquesta de cámara interpreta piezas clásicas y contemporáneas en el histórico Teatro Municipal de Cusco.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -793,7 +793,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -812,7 +812,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -831,7 +831,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -862,11 +862,11 @@
       "description": "Parrillas, anticuchos, chorizos y más en un festival dedicado a la cocina a la brasa, con música en vivo y actividades familiares.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -878,7 +878,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -897,7 +897,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -916,7 +916,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -947,11 +947,11 @@
       "description": "Partido de alto nivel en el Estadio Mansiche, con equipos que buscan asegurar su clasificación en el torneo nacional.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -963,7 +963,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -982,7 +982,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1001,7 +1001,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1032,11 +1032,11 @@
       "description": "Conversatorios, exposiciones y muestras de arte moderno con la participación de artistas locales y nacionales.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -1048,7 +1048,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1067,7 +1067,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1086,7 +1086,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1117,11 +1117,11 @@
       "description": "Voces líricas y orquesta en vivo interpretan arias de ópera y fragmentos de zarzuela en el Gran Teatro Nacional.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -1133,7 +1133,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1152,7 +1152,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1183,11 +1183,11 @@
       "description": "Clase práctica para aprender técnicas de sushi con influencia nikkei, combinando sabores japoneses y peruanos.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -1199,7 +1199,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1218,7 +1218,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1249,11 +1249,11 @@
       "description": "Tenistas nacionales e invitados internacionales compiten en canchas de arcilla bajo el sol piurano.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -1265,7 +1265,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1298,7 +1298,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1331,7 +1331,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1376,11 +1376,11 @@
       "description": "Exposición de fotografía documental que retrata la vida cotidiana y paisajes de la sierra central del Perú.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -1392,7 +1392,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1411,7 +1411,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1442,11 +1442,11 @@
       "description": "Bandas independientes de rock se presentan en un festival al aire libre con zonas de comida y stands de emprendimientos.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -1458,7 +1458,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1477,7 +1477,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1508,11 +1508,11 @@
       "description": "Feria gastronómica vegana con propuestas saludables, productos orgánicos y opciones de comida rápida a base de vegetales.",
       "seats": [
         {
-          "seat": "frontseat",
+          "seat": "delantero",
           "price": 100
         },
         {
-          "seat": "backseat",
+          "seat": "posterior",
           "price": 60
         },
         {
@@ -1524,7 +1524,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-1.png",
           "name": "Ellie Black",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1543,7 +1543,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",
@@ -1562,7 +1562,7 @@
         {
           "img_avatar": "/assets/organizers/organizer-avt-2.png",
           "name": "Amelie Laurent",
-          "job": "Concert Manager",
+          "job": "Gerente de Conciertos",
           "social": [
             {
               "icon": "/assets/organizers/social/x.svg",

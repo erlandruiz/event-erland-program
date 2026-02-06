@@ -21,7 +21,7 @@ const Home = () => {
     handleClearSearch,
     showEventList,
   } = useContext(EventContext);
-  console.log(showEventList);
+  // console.log(showEventList);
 
   return (
     <div>

@@ -6,6 +6,8 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 import EventSchedule from "@/components/EventSchedule";
 import Timer from "@/components/TImer";
 import CustomSelect from "@/components/CustomSelect";
+import BuyTicket from "@/components/BuyTicket";
+import Organizers from "@/components/Organizers";
 
 export const dynamic = "force-dynamic";
 
@@ -47,8 +49,8 @@ const EventDetails = async ({ params }) => {
                 <EventSchedule event={event}/>
               </div>
               <Timer event={event}/>
-              <CustomSelect/>
-              <div>Comprar boletos</div>
+              <CustomSelect event ={event}/>
+              <BuyTicket event= {event}/>
             </div>
           </div>
           <div className="flex flex-col xl:flex-row gap-8 xl:gap-24">
@@ -92,7 +94,7 @@ const EventDetails = async ({ params }) => {
                 </ul>
               </div>
             </div>
-            <div className="w-full max-w-[460px]">organzers</div>
+            <div className="w-full max-w-[460px]" ><Organizers event={event}/></div>
           </div>
         </div>
       </div>

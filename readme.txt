@@ -9,3 +9,6 @@ npm install --force
 
 Start application:
 npm run dev
+
+Para enviar los datos del db.json a mongo Atlas
+npm run seed 

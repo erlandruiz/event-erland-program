@@ -2,6 +2,7 @@ import { EventContext } from "@/contexts/EventContext";
 import { useContext } from "react";
 import Event from "./Event";
 import SkeletonGrid from "../SkeletonGrid";
+import Link from "next/link";
 
 const EventList = () => {
   const {
@@ -29,12 +30,16 @@ const EventList = () => {
   } else {
     return (
       <div>
-        <h4 className="h4 mb-6">{filteredEvents.length} Resultados encontrados</h4>
+        <h4 className="h4 mb-6">
+          {filteredEvents.length} Resultados encontrados
+        </h4>
         <div className="grid grid-cols-1 xl:grid-cols-4 gap-[30px] mb-32">
           {filteredEvents.map((event, index) => {
             return (
               <div key={index}>
-                <Event event={event} />
+                <Link href={`/event/${event._id}`}>
+                  <Event event={event} />
+                </Link>
               </div>
             );
           })}

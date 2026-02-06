@@ -1,10 +1,69 @@
-"use client"
-const CustomSelect = ()=>{
-    return(
-        <div>
-            CUSTOM SELECT
-        </div>
-    )
-}
+"use client";
 
-export default CustomSelect
+import { TicketContext } from "@/contexts/TicketContext";
+import { useContext, useEffect } from "react";
+
+import { BiChair, BiChevronDown } from "react-icons/bi";
+
+const CustomSelect = ({ event }) => {
+  const {
+    seat,
+    showMenu,
+    itemAmount,
+    totalPrice,
+    checkoutData,
+    handleSeat,
+    setSeat,
+    setShowMenu,
+    buyNow,
+    initializeEvent,
+  } = useContext(TicketContext);
+
+  useEffect(() => {
+    initializeEvent(event);
+  }, []);
+  return (
+    <div
+      onClick={(e) => {
+        setShowMenu((prev) => !prev);
+        e.stopPropagation();
+      }}
+      className="custom-select bg-[var(--color-secondary)] w-full h-[64px] rounded-full flex items-center justify-between px-8 relative cursor-pointer select-none"
+    >
+      <div className="flex items-center gap-2 w-full">
+        <div className="text-xl text-[var(--color-accent)]">
+          <BiChair />
+        </div>
+        <div className="flex items-center justify-between w-full">
+          <div className="flex-1 capitalize">{seat.seat}</div>
+          <div className="flex items-center gap-2">
+            <div className="font-semibold">${seat.price}</div>
+            <div className="text-sm text-[var(--color-text)]">Cada uno</div>
+          </div>
+        </div>
+      </div>
+
+      {showMenu && (
+        <ul className="bg-[var(--color-secondary)] absolute top-[70px] left-0 overflow-hidden w-full rounded-3xl ">
+          {event.seats.map((seat, index) => (
+            <li
+              key={index}
+              className="cursor-pointer hover:[var(--color-primary)] px-8 py-5"
+              onClick={(e) => {
+                handleSeat(seat.seat, seat.price);
+                e.stopPropagation();
+              }}
+            >
+              <div className="flex justify-between">
+                <div className="capitalize">{seat.seat}</div>
+                <div>${seat.price}</div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+};
+
+export default CustomSelect;
